@@ -1,5 +1,6 @@
 "use client";
 
+import Grird from "@/components/Grird";
 // import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
@@ -20,6 +21,7 @@ const Home = () => {
         {/* <FloatingNav navItems={navItems} /> */}
         <FloatingNav navItems={[{name:'Home',link:'/',icon:<FaHome/>}]}/>
         <Hero />
+        <Grird />
         {/* <Grid />
         <RecentProjects />
         <Clients />
